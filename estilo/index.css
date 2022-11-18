@@ -1,5 +1,43 @@
-
-
-h1 {
-    color: red;
+/* Gerais */
+:root {
+    --color01:#444;
+    --color02:#353d41;
+    --color03:#fff;
+}
+body {
+    font-family: 'Roboto', 'sans-serif';
+}
+.row {
+    margin: 0;
+}
+.container {
+    padding: 70px 0;
+}
+p, li {
+    color: var(--color01);
+    font-size: 14px;
+}
+/* Barra de navegação */
+header, .navbar {
+    background-color: var(--color02);
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo {
+    width: 75px;
+}
+.navbar-brand {
+    padding: 0;
+    color: var(--color03);
+}
+.navbar-brand:hover {
+    color: var(--color03);
+}
+#navbar-links a {
+    color: var(--color03);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 0.8rem;
 }
